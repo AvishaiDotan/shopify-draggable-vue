@@ -1,0 +1,155 @@
+ul {
+    list-style-type: none;
+    margin-block: 0;
+    margin-inline: 0;
+    padding: 0;
+}
+
+.header1 {
+    height: 50px;
+    background-image: linear-gradient(224deg, #b8affa, #ffffff00);
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    max-width: 500px;
+}
+
+.header1 .logo {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.header1 .logo .logo-img {
+    height: 100%;
+}
+
+.header1 .header-nav .nav-list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-inline-end: 30px;
+}
+
+.full-site-view .header1 {
+    max-width: 100vw;
+    height: 130px;
+}
+
+.full-site-view .header1 li {
+    height: 130px;
+}
+
+
+
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+/* Main */
+.home-page .about {
+    min-height: calc(60vh - 80px);
+    background-color: var(--clr-mail-light-secondary);
+    position: relative;
+}
+
+.home-page .about h3 {
+    font-size: 2rem;
+    font-family: 'ProductSans-Bold';
+    padding: 0;
+    padding-inline: 50px;
+    padding-block-start: 70px;
+}
+
+.home-page .about p {
+    padding-inline: 50px;
+    font-family: 'ProductSans-light';
+    font-size: 1.2rem;
+}
+
+.home-page .about p:last-child {
+    font-family: 'ProductSans-Bold';
+    display: inline-block;
+    padding: 10px;
+    border-radius: 25px;
+    margin-inline-start: 50px;
+    margin-block-start: 50px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.home-page .about .mail {
+    background-color: var(--clr-mail-primary);  
+    box-shadow: 1px 1px 1px var(--clr-mail-primary);   
+}
+
+.home-page .about .keep {
+    background-color: #feefc3;
+    box-shadow: 1px 1px 1px  #feefc3;;  
+}
+
+.home-page .about .books {
+    background-color: #bdbdbd;
+    box-shadow: 1px 1px 1px #bdbdbd;
+}
+
+.home-page .about .mail:hover {
+    box-shadow: 1px 1px 7px var(--clr-mail-primary);   
+}
+
+.home-page .about .keep:hover {
+    box-shadow: 1px 1px 7px #ffd864; 
+}
+
+.home-page .about .books:hover {
+    box-shadow: 1px 1px 7px #bdbdbd;
+}
+
+.home-page .img-container {
+    height: 40vh;
+    width: 500px;
+    transition: 1s;
+}
+
+.home-page .img-container img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    animation: imgOpacity 9s infinite normal forwards;
+}
+
+.home-page .home-page-img  {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.home-page .display {
+    display: none;
+}
+
+.full-site-view .home-page .display {
+    display: block;
+}
+
+.full-site-view .img-container {
+    width: 100vw;
+}
+
+
+
+
+
